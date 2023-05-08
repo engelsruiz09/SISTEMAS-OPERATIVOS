@@ -1,0 +1,50 @@
+/*4. Los directores de un complejo turístico nos piden que regulemos con monitores el acceso de los
+
+turistas 4 los templos a visitar desde una sala de exposiciones. Para acceder a los templos es necesario esperar en la sala a que venga a 
+buscarlos un guia. El número total de guías es G. Si un visitante quiere acceder a los templos y hay más gente esperando a que venga un guía, 
+deberá hacer cola. La visita es personalizada, es decir, cada guía se lleva sólo a un visitante. Si un guía está disponible y no hay 
+visitantes esperando a la visita de los templos, el guía descansará.
+
+Eddie Girón 1307419
+Julio Ruiz 1284719
+
+*/
+import java.util.concurrent.Semaphore;
+
+class Templo {
+    private final int totalGuias;
+    private int guiasDisponibles;
+
+    Templo(int totalGuias) {
+        this.totalGuias = totalGuias;
+        this.guiasDisponibles = totalGuias;
+    }
+
+    synchronized void liberarGuia(int visitanteId) {
+        guiasDisponibles++;
+        System.out.println("Visitante " + visitanteId + " ha terminado la visita. Guía liberado.");
+        notify();
+    }
+
+    synchronized void solicitarGuia(int visitanteId) {
+        while (guiasDisponibles == 0) {
+            try {
+                System.out.println("Visitante " + visitanteId + " esperando guía.");
+                wait();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        guiasDisponibles--;
+        System.out.println("Visitante " + visitanteId + " asignado a un guía.");
+    }
+}
+
+class Visitante implements Runnable {
+    private final Templo templo;
+    private final int visitanteId;
+
+    Visitante(Templo templo, int visitanteId) {
+        this.templo = templo;
+        this.visitanteId = visitanteId;
+    }

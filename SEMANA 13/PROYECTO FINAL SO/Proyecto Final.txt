@@ -1,0 +1,30 @@
+Proyecto Final
+
+1) Instalar la herramienta NETDATA, en la maquina virtual de sistema operativo Centos07, que se
+ha instalado previamente en el curso y ha sido utilizado para las practicas previamente.
+
+2) ¿Qué es NETDATA y para qué sirve, cuáles son sus principales características?
+
+3) ¿Qué podemos monitorear con NETDATA?
+
+4) Realizar las métricas en NETDATA de:
+
+e CPU
+
+e Memoria
+
+e Métricas adicionales como red, disco duro, etc.
+
+Para cada una de las métricas tomar captura de pantalla y pegar en este documento.
+
+NOTA: Alas pantallas o capturas que realice debe incluirle el encabezado de la interfaz web donde esta
+montada su herramienta ejemplo:
+
+El siguiente paso consiste en acceder a cualquier navegador y desde la barra de dirección ingresar la siguiente
+sintaxis:
+
+En nuestro caso ingresaremos la ruta [ur1="""]http://182.0168.0.10:19999[/ur1] yel resultado será el
+
+siguiente:
+
+

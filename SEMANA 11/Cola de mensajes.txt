@@ -1,0 +1,17 @@
+Eddie Girón 1307419
+Julio Ruiz 1284719
+Roberto Moya 1273020
+
+
+Pedro = Open('Conversación')
+Pedro = Send(msg('Cual es la tarea de Sistemas operativos')) to Juan
+Juan = Recive(msg from.Pedro)
+Juan = Send(msg('La tarea es para el siguiente jueves')) to Pedro
+Juan = Send(msg('María ya tines la tarea?')) to Maria
+Maria = Recive(msg from.Juan)
+Maria = Send(msg('No, aún no la tengo')) to Juan
+Juan = Recive(msg from.Maria)
+Juan = Send(msg('Tu tampoco')) to Rodrigo
+Rodrigo = Recive(msg from.Juan)
+Rodrigo = Send(msg('Yo tampoco')) to Juan
+Juan = Close('Conversación')

@@ -1,0 +1,82 @@
+EDDIE ALEJANDRO GIRON CARRANZA - 1307419
+JULIO ANTHONY ENGELS RUIZ COTO - 1284719
+===============================================PROBLEMA 1 ================================================
+contadorpiezas = 0
+limitecinta = 10
+semaphorecinta = 1
+semaphorecontrolcalidad = 0
+
+proceso MAQUINA INYECTAR:
+	while true:
+		pieza = producirpieza();
+		semaphorecinta.await()
+		begin si contadorpiezas < limitedelacinta:
+			contadorpiezas++
+			cintatransportadora.añadir(pieza)//aca añadimos la pieza a nuestra cinta
+			semaphorecontrolcalida.signal()
+		end si
+		semaphorecinta.signal()
+	fin while
+proceso ROBOT:
+	while true:
+		semaforocinta.await()
+		begin si contadorpiezas > 0:
+			pieza = recogerpieza()
+			contadorpiezas--
+			semaphorecinta.signal()
+			robotdejarpiezaencaja(pieza)
+		end si 
+		begin else
+			semaphorecinta.signal()
+		end else
+	fin while
+
+proceso OPERARIO:
+	while true:
+		semaphorecontrolcalidad.wait()
+		begin si
+			contadorpiezas >= 3
+			piezascontrol = []
+			mientras i en rango (3)
+				semaphorecinta.wait()
+				pieza = robotrecogepieza()
+				contadorpiezas--
+				semaphorecinta.signal()
+				piezascontrol.agregar(pieza)
+			end mientras
+		end si
+	fin while
+		
+ ===========================================PROBLEMA 2=======================================================
+
+semaphore cocinero = 0;
+semaphore canibal = 1;
+
+while(true)
+begin_while
+	if(canibal == 0) //Si el canibal ya no tiene comida
+	begin_if
+		if(cocinero == 0) //Si el cocinero no está ocupado cocinando
+		begin_if
+			wait(cocinero); //cocinero = 1
+				//sección crítica
+				//cocinero prepara comida
+			signal(cocinero); //cocinero = 0
+			signal(canibal); //canibal = 1
+		end_if
+		else
+		begin_else //Si el cocinero está ocupado cocinando
+			wait(canibal); //canibal = 0
+			wait(cocinero); //cocinero = 1
+			signal(cocinero); //cocinero = 0
+			signal(canibal); //canibal = 1
+		end_else
+	end_if
+	else
+	begin_else
+		wait(canibal)
+		//El canibal tiene comida y está comiendo
+		signal(canibal)
+	end_else
+end_while
+			

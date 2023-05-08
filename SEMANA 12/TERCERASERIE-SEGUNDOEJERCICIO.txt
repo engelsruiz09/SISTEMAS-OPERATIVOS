@@ -1,0 +1,31 @@
+crear un proceso servidor que atiene peticiones que le llegan a traves de una cola de mensajes 
+desde una serie de procesos clientes. los mensajes tienen el formato (PID,caracter), el proceso 
+servidor atiende las peticiones e imprime en pantalla "servidor": atienda la peticion del proceso PID: 
+caracter enviado y envian una respuesta a travez de otra cola a los clientes para indicar que su peticion ha sido atendida. cuando el cliente reciba la respuesta imprime por pantalla el mensaje "cliente pid: atendida mi 
+peticion" y termina. el servidor termina cuando un cliente le pase el caracter z el caracter se pasa al cliente como argumento mediante linea de ordenes.
+
+
+
+procesodelservidor():
+	mientras true:
+		recibir mensaje(PID, caracter)//cola peticiones
+		imprimir "servidor atiende la peticion del proceso PID"
+
+		si carac == 'Z':
+			enviar mensaje //cola de respuestas
+			romper
+		sino:
+			enviar mensaje de confirmacion (PID)  //cola respuestas
+		fin si
+	fin mientras
+fin
+
+cliente(PID, caracter):
+	enviar mensaje (PID,caracter)//cola peticiones
+	recibir mensaje //cola de respuesta
+si mensaje es exitoso:
+	imprimir "cliente PID: atendida mi peticion "
+sino mensaje de fin:
+	imprimir "cliente PID: el servidor ha terminado"
+fin si
+fin

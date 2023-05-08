@@ -1,0 +1,36 @@
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\bin\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.exe
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\bin\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.deps.json
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\bin\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.runtimeconfig.json
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\bin\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.dll
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\bin\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.pdb
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.csproj.AssemblyReference.cache
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.Form2.resources
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.csproj.GenerateResource.cache
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.AssemblyInfoInputs.cache
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.AssemblyInfo.cs
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.csproj.CoreCompileInputs.cache
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.dll
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\refint\PRACTICA3_SEMAFOROS.dll
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.pdb
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.genruntimeconfig.cache
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\ref\PRACTICA3_SEMAFOROS.dll
+C:\Users\julio\Downloads\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.Properties.Resources.resources
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\bin\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.exe
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\bin\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.deps.json
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\bin\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.runtimeconfig.json
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\bin\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.dll
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\bin\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.pdb
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.csproj.AssemblyReference.cache
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.Form2.resources
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.Properties.Resources.resources
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.csproj.GenerateResource.cache
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.AssemblyInfoInputs.cache
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.AssemblyInfo.cs
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.csproj.CoreCompileInputs.cache
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.dll
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\refint\PRACTICA3_SEMAFOROS.dll
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.pdb
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\PRACTICA3_SEMAFOROS.genruntimeconfig.cache
+C:\Users\julio\Downloads\PRIMER CICLO 2023\SISTEMAS OPERATIVOS\SEMANA 11\PRACTICA3_SEMAFOROS\obj\Debug\net6.0-windows\ref\PRACTICA3_SEMAFOROS.dll
